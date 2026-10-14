@@ -267,8 +267,8 @@ namespace CosmicHorror
             }
         }
 
-        // Salvaje que ve un colono a menos de 25 celdas lo ataca en melee, sin
-        // estado mental ni carta: agresion invisible.
+        // Salvaje que huele un colono en el mapa lo caza en melee, sin estado
+        // mental ni carta: agresion invisible.
         private void TryAttackColonistsInSight()
         {
             if (jobs == null || Map == null)
@@ -281,7 +281,7 @@ namespace CosmicHorror
                 return;
             }
             Pawn target = null;
-            float best = 25f * 25f;
+            float best = float.MaxValue;
             foreach (Pawn colonist in Map.mapPawns.FreeColonistsSpawned)
             {
                 if (colonist.Dead || colonist.Downed)
@@ -289,7 +289,7 @@ namespace CosmicHorror
                     continue;
                 }
                 float dist = Position.DistanceToSquared(colonist.Position);
-                if (dist < best && GenSight.LineOfSight(start: Position, end: colonist.Position, map: Map))
+                if (dist < best)
                 {
                     best = dist;
                     target = colonist;

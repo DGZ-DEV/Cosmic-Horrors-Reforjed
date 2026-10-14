@@ -1,5 +1,7 @@
 using RimWorld;
+using System.Collections.Generic;
 using Verse;
+using Verse.AI.Group;
 
 namespace CosmicHorror
 {
@@ -44,6 +46,7 @@ namespace CosmicHorror
             }
             Pawn star = PawnGenerator.GeneratePawn(kindDef: spawn, faction: faction);
             GenSpawn.Spawn(newThing: star, loc: cell, map: map);
+            List<Pawn> pack = new List<Pawn> { star };
             int count = Rand.RangeInclusive(2, 3);
             for (int i = 0; i < count; i++)
             {
@@ -52,10 +55,12 @@ namespace CosmicHorror
                 if (loc != IntVec3.Invalid)
                 {
                     GenSpawn.Spawn(newThing: pawn, loc: loc, map: map);
+                    pack.Add(item: pawn);
                 }
             }
-            Find.LetterStack.ReceiveLetter(label: "It dreams in the rain",
-                text: "Through fog and rain, the star-spawn of Cthulhu walks into your colony, deep ones at its heels.",
+            CosmicHorrorDynamicSpawns.StartAssault(faction: faction, map: map, pawns: pack);
+            Find.LetterStack.ReceiveLetter(label: "ROMCH_CthulhuNightLabel".Translate(),
+                text: "ROMCH_CthulhuNightText".Translate(),
                 textLetterDef: LetterDefOf.ThreatBig,
                 lookTargets: new TargetInfo(cell: cell, map: map), relatedFaction: faction);
             return true;

@@ -2,6 +2,7 @@ using RimWorld;
 using System.Collections.Generic;
 using System.Linq;
 using Verse;
+using Verse.AI.Group;
 
 namespace CosmicHorror
 {
@@ -54,8 +55,14 @@ namespace CosmicHorror
                 pawns.Add(item: PawnGenerator.GeneratePawn(kindDef: picked, faction: faction));
             }
             PawnsArrivalModeWorkerUtility.DropInDropPodsNearSpawnCenter(parms: parms, pawns: pawns);
-            Find.LetterStack.ReceiveLetter(label: "The plea you refused",
-                text: "You turned away a desperate plea for rescue. Now its saviors fall from the sky in pods, and they are not here to thank you.",
+            Lord lord = LordMaker.MakeNewLord(faction: faction,
+                lordJob: new LordJob_AssaultColony(), map: map);
+            foreach (Pawn pawn in pawns)
+            {
+                lord.AddPawn(p: pawn);
+            }
+            Find.LetterStack.ReceiveLetter(label: "ROMCH_PodsLabel".Translate(),
+                text: "ROMCH_PodsText".Translate(),
                 textLetterDef: LetterDefOf.ThreatBig,
                 lookTargets: new TargetInfo(cell: parms.spawnCenter, map: map), relatedFaction: faction);
             return true;

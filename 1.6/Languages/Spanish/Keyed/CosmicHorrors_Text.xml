@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ROMCH_FillingPit>{0} va a rellenar el foso.</ROMCH_FillingPit>
+  <ROMCH_CancellingFillingNoColonist>El colono encargado no está disponible.</ROMCH_CancellingFillingNoColonist>
+  <ROMCH_CancellingFilling>Cancelando el relleno del agujero. {0}</ROMCH_CancellingFilling>
+  <ROMCH_CancellingSacrifice>Cancelando el sacrificio. {0}</ROMCH_CancellingSacrifice>
+  <ROMCH_CancellingSacrificePitUnavailable>El foso no está disponible.</ROMCH_CancellingSacrificePitUnavailable>
+  <ROMCH_CancellingSacrificeExecutionerUnavailable>El ejecutor no está disponible.</ROMCH_CancellingSacrificeExecutionerUnavailable>
+  <ROMCH_CancellingSacrificeSacrificeUnavailable>El sacrificio, {0}, no está disponible.</ROMCH_CancellingSacrificeSacrificeUnavailable>
+  <ROMCH_SacrificeStarting>Está empezando un sacrificio.</ROMCH_SacrificeStarting>
+  <ROMCH_SanityLossBegun>{0} ha empezado a perder la cordura.</ROMCH_SanityLossBegun>
+  <ROM_TradeSanityForMadness>Enloquecer (limpia la pérdida de cordura)</ROM_TradeSanityForMadness>
+  <ROM_TradedSanityLossForMadness>{0} sucumbió a una crisis nerviosa, pero ha recuperado la cordura.</ROM_TradedSanityLossForMadness>
+  <ROM_TradedSanityLossForMadnessFailed>{0} no logró entrar en crisis. ¿Reintentar?</ROM_TradedSanityLossForMadnessFailed>
+  <CallOfCthulhuCosmicHorror>Call of Cthulhu - Cosmic Horrors</CallOfCthulhuCosmicHorror>
+  <CosmicHorrorRaid>Asalto</CosmicHorrorRaid>
+  <CosmicHorrorRaidIncidentDesc>Algo de otro mundo acecha a tus colonos.</CosmicHorrorRaidIncidentDesc>
+  <StarVampireIncidentMessage>A lo lejos se oye una risa burlona, cruel e inhumana. Algo se acerca.</StarVampireIncidentMessage>
+  <StarVampireIncidentMessage2>La risa burlona vuelve a oírse, cruel e inhumana. Preparaos rápido.</StarVampireIncidentMessage2>
+  <DarkYoungIncidentLabel>Bestias extrañas</DarkYoungIncidentLabel>
+  <DarkYoungIncidentDesc>Han llegado unas criaturas anormales.</DarkYoungIncidentDesc>
+  <DiscoveredDaysAgo>Descubierto hace {0} días</DiscoveredDaysAgo>
+  <CausingSanityLoss>Provocando pérdida de cordura.</CausingSanityLoss>
+  <NotCausingSanityLoss>Inactivo</NotCausingSanityLoss>
+  <CommandPitSacrifice>Sacrificar prisionero</CommandPitSacrifice>
+  <CommandPitSacrificeDesc>Arroja un prisionero al foso con la esperanza de saciar al monstruo.</CommandPitSacrificeDesc>
+  <NoPrisoners>No hay prisioneros para sacrificar</NoPrisoners>
+  <CommandCancelPitSacrificeDesc>Cancela el sacrificio del foso y devuelve a cada uno a lo suyo.</CommandCancelPitSacrificeDesc>
+  <PitSacrificeCancelled>Sacrificio cancelado.</PitSacrificeCancelled>
+  <CommandFillHole>Rellenar agujero</CommandFillHole>
+  <CommandFillHoleActiveDesc>Un colono al azar intentará rellenar el agujero. NOTA: ¡el foso está ACTIVO y NO es recomendable!</CommandFillHoleActiveDesc>
+  <CommandFillHoleDesc>Un colono al azar intentará rellenar el agujero.</CommandFillHoleDesc>
+  <ChthonianLarvaSpawned>Unas larvas han reventado el cráneo de {0}.</ChthonianLarvaSpawned>
+  <ChthonianPitSacrificeGathering>Recogiendo sacrificio</ChthonianPitSacrificeGathering>
+  <ChthonianPitSacrificeDropping>Preparando para soltar a {0}</ChthonianPitSacrificeDropping>
+  <ChthonianPitSacrificeFinished>Sacrificio terminado.</ChthonianPitSacrificeFinished>
+  <FillChthonianPitGoing>Yendo al foso</FillChthonianPitGoing>
+  <FillChthonianPitFilling>Rellenando el foso</FillChthonianPitFilling>
+  <FillChthonianPitFinshed>Relleno del foso terminado</FillChthonianPitFinshed>
+  <ChthonianPitActivityStarted>El foso se ha activado.</ChthonianPitActivityStarted>
+  <ChthonianPitActivityStopped>El foso ha cesado toda actividad.</ChthonianPitActivityStopped>
+  <CriesFromBelow>{0} oye llantos humanos desde abajo mientras {1} palea hacia el foso.</CriesFromBelow>
+  <ChthonianSacrificeReturnedLabel>Sacrificio devuelto</ChthonianSacrificeReturnedLabel>
+  <ChthonianSacrificeReturnedDesc>Nuestro sacrificio al foso ha vuelto extrañamente casi intacto.</ChthonianSacrificeReturnedDesc>
+  <ROMCH_AllowTaming>Permitir domesticar horrores cósmicos</ROMCH_AllowTaming>
+  <ROMCH_AllowTamingDesc>Si se activa, los horrores salvajes se pueden domesticar. Cada monstruo conserva su dificultad. Apagado por defecto.</ROMCH_AllowTamingDesc>
+  <ROMCH_RainPackLabel>Los profundos surgen de la riada</ROMCH_RainPackLabel>
+  <ROMCH_RainPackText>Atraídos por la lluvia, los profundos reptan a tierra liderados por uno mayor.</ROMCH_RainPackText>
+  <ROMCH_SpacePackLabel>Formas en el vacío</ROMCH_SpacePackLabel>
+  <ROMCH_SpacePackText>Vampiros estelares derivan a bordo, hambrientos.</ROMCH_SpacePackText>
+  <ROMCH_ShoggothWildsLabel>Shoggoths en las scarlands</ROMCH_ShoggothWildsLabel>
+  <ROMCH_ShoggothWildsText>Shoggoths rezuman por la tierra escarificada, jóvenes y colosos por igual.</ROMCH_ShoggothWildsText>
+  <ROMCH_CthulhuNightLabel>Sueña bajo la lluvia</ROMCH_CthulhuNightLabel>
+  <ROMCH_CthulhuNightText>Entre niebla y lluvia, el Engendro estelar de Cthulhu entra en tu colonia con profundos tras él.</ROMCH_CthulhuNightText>
+  <ROMCH_PodsLabel>La súplica que rechazaste</ROMCH_PodsLabel>
+  <ROMCH_PodsText>Rechazaste una súplica desesperada de auxilio. Ahora sus salvadores caen del cielo en cápsulas, y no vienen a darte las gracias.</ROMCH_PodsText>
+  <ROMCH_EntityRecorded>Entidad registrada: {0}</ROMCH_EntityRecorded>
+</LanguageData>

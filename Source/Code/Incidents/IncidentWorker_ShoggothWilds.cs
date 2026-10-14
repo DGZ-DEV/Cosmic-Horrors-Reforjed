@@ -51,8 +51,8 @@ namespace CosmicHorror
             {
                 return false;
             }
-            Find.LetterStack.ReceiveLetter(label: "Shoggoths in the scarlands",
-                text: "Shoggoths ooze across the scarred land, young and colossus alike.",
+            Find.LetterStack.ReceiveLetter(label: "ROMCH_ShoggothWildsLabel".Translate(),
+                text: "ROMCH_ShoggothWildsText".Translate(),
                 textLetterDef: LetterDefOf.ThreatSmall,
                 lookTargets: new TargetInfo(cell: cell, map: map), relatedFaction: null);
             return true;

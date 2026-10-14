@@ -155,7 +155,7 @@ namespace CosmicHorror
                 Log.Message("CosmicHorrorStudy: descubierto " + entry.defName + ", descubiertoDespues=" +
                     codex.Discovered(entry));
                 CosmicHorrorTaming.UpdateRacesForEntry(entryName);
-                Find.LetterStack.ReceiveLetter("Entity recorded: " + entry.label, entry.description,
+                Find.LetterStack.ReceiveLetter("ROMCH_EntityRecorded".Translate(entry.label), entry.description,
                     LetterDefOf.PositiveEvent);
             }
             catch (System.Exception e)

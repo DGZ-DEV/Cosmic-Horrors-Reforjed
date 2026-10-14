@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ROM_Chthonian.label>Chthonian</ROM_Chthonian.label>
+  <ROM_ChthonianLarva.label>Larva chthonian</ROM_ChthonianLarva.label>
+  <ROM_Cthulhid.label>Ctúlhido</ROM_Cthulhid.label>
+  <ROM_DarkYoung.label>Joven oscuro</ROM_DarkYoung.label>
+  <ROM_DeepOne.label>Profundo</ROM_DeepOne.label>
+  <ROM_DeepOneGreat.label>Gran profundo</ROM_DeepOneGreat.label>
+  <ROM_MiGo.label>Mi-go</ROM_MiGo.label>
+  <ROM_Shoggoth.label>Shoggoth</ROM_Shoggoth.label>
+  <ROM_ShoggothColossal.label>Shoggoth colosal</ROM_ShoggothColossal.label>
+  <ROM_ShoggothTiny.label>Shoggoth enano</ROM_ShoggothTiny.label>
+  <ROM_StarVampire.label>Vampiro estelar</ROM_StarVampire.label>
+</LanguageData>

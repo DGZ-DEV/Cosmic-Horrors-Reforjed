@@ -58,4 +58,15 @@
   <!-- Taming option -->
   <ROMCH_AllowTaming>Allow taming cosmic horrors</ROMCH_AllowTaming>
   <ROMCH_AllowTamingDesc>If enabled, wild horrors can be tamed. Each monster keeps its own taming difficulty. Disabled by default.</ROMCH_AllowTamingDesc>
+  <ROMCH_RainPackLabel>Deep ones surge from the flood</ROMCH_RainPackLabel>
+  <ROMCH_RainPackText>Drawn by the rain, deep ones crawl ashore, led by a greater one.</ROMCH_RainPackText>
+  <ROMCH_SpacePackLabel>Shapes in the void</ROMCH_SpacePackLabel>
+  <ROMCH_SpacePackText>Star vampires drift aboard, hungry.</ROMCH_SpacePackText>
+  <ROMCH_ShoggothWildsLabel>Shoggoths in the scarlands</ROMCH_ShoggothWildsLabel>
+  <ROMCH_ShoggothWildsText>Shoggoths ooze across the scarred land, young and colossus alike.</ROMCH_ShoggothWildsText>
+  <ROMCH_CthulhuNightLabel>It dreams in the rain</ROMCH_CthulhuNightLabel>
+  <ROMCH_CthulhuNightText>Through fog and rain, the star-spawn of Cthulhu walks into your colony, deep ones at its heels.</ROMCH_CthulhuNightText>
+  <ROMCH_PodsLabel>The plea you refused</ROMCH_PodsLabel>
+  <ROMCH_PodsText>You turned away a desperate plea for rescue. Now its saviors fall from the sky in pods, and they are not here to thank you.</ROMCH_PodsText>
+  <ROMCH_EntityRecorded>Entity recorded: {0}</ROMCH_EntityRecorded>
 </LanguageData>

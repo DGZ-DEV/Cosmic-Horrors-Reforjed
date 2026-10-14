@@ -3,6 +3,7 @@ using System.Linq;
 using Rework;
 using RimWorld;
 using Verse;
+using Verse.AI.Group;
 
 namespace CosmicHorror
 {
@@ -21,9 +22,27 @@ namespace CosmicHorror
         public static bool OdysseyActive =>
             LoadedModManager.RunningModsListForReading.Any(m => m.PackageId == "ludeon.rimworld.odyssey");
 
-        public static bool IsSwampOrPolluted(Map map)
+        // Manada con faccion sin lord vaga sin rumbo: se le da asalto para que
+        // ataque la colonia de verdad.
+        public static void StartAssault(Faction faction, Map map, List<Pawn> pawns)
         {
-            string biome = map?.Biome?.defName;
+            if (faction == null || map == null || pawns == null || pawns.Count == 0)
+            {
+                return;
+            }
+            Lord lord = LordMaker.MakeNewLord(faction: faction,
+                lordJob: new LordJob_AssaultColony(), map: map);
+            foreach (Pawn pawn in pawns)
+            {
+                if (pawn != null)
+                {
+                    lord.AddPawn(p: pawn);
+                }
+            }
+        }
+
+        public static bool IsSwampOrPolluted(Map map)
+        {            string biome = map?.Biome?.defName;
             if (biome == "TemperateSwamp" || biome == "TropicalSwamp" || biome == "ColdBog")
             {
                 return true;
@@ -97,6 +116,7 @@ namespace CosmicHorror
                 return;
             }
             int count = Rand.RangeInclusive(3, 5);
+            List<Pawn> pack = new List<Pawn>();
             for (int i = 0; i < count; i++)
             {
                 Pawn pawn = PawnGenerator.GeneratePawn(kindDef: deepOne, faction: faction);
@@ -104,12 +124,15 @@ namespace CosmicHorror
                 if (loc != IntVec3.Invalid)
                 {
                     GenSpawn.Spawn(newThing: pawn, loc: loc, map: map);
+                    pack.Add(item: pawn);
                 }
             }
             Pawn leader = PawnGenerator.GeneratePawn(kindDef: great, faction: faction);
             GenSpawn.Spawn(newThing: leader, loc: cell, map: map);
-            Find.LetterStack.ReceiveLetter(label: "Deep ones surge from the flood",
-                text: "Drawn by the rain, deep ones crawl ashore, led by a greater one.",
+            pack.Add(item: leader);
+            StartAssault(faction: faction, map: map, pawns: pack);
+            Find.LetterStack.ReceiveLetter(label: "ROMCH_RainPackLabel".Translate(),
+                text: "ROMCH_RainPackText".Translate(),
                 textLetterDef: LetterDefOf.ThreatBig,
                 lookTargets: new TargetInfo(cell: cell, map: map), relatedFaction: faction);
         }
@@ -146,6 +169,7 @@ namespace CosmicHorror
                 return;
             }
             int count = Rand.RangeInclusive(2, 3);
+            List<Pawn> pack = new List<Pawn>();
             for (int i = 0; i < count; i++)
             {
                 Pawn pawn = PawnGenerator.GeneratePawn(kindDef: picked, faction: faction);
@@ -153,10 +177,12 @@ namespace CosmicHorror
                 if (loc != IntVec3.Invalid)
                 {
                     GenSpawn.Spawn(newThing: pawn, loc: loc, map: map);
+                    pack.Add(item: pawn);
                 }
             }
-            Find.LetterStack.ReceiveLetter(label: "Shapes in the void",
-                text: "Star vampires drift aboard, hungry.",
+            StartAssault(faction: faction, map: map, pawns: pack);
+            Find.LetterStack.ReceiveLetter(label: "ROMCH_SpacePackLabel".Translate(),
+                text: "ROMCH_SpacePackText".Translate(),
                 textLetterDef: LetterDefOf.ThreatBig,
                 lookTargets: new TargetInfo(cell: cell, map: map), relatedFaction: faction);
         }

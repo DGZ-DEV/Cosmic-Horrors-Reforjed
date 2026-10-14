@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ROM_DeepOneCodex.label>profundo</ROM_DeepOneCodex.label>
+  <ROM_DeepOneCodex.description>Sirvientes anfibios de las profundidades que asaltan asentamientos costeros en busca de cautivos.</ROM_DeepOneCodex.description>
+  <ROM_MiGoCodex.label>mi-go</ROM_MiGoCodex.label>
+  <ROM_MiGoCodex.description>Eruditos fungoides alados del vacío, armados con extrañas armas invocadoras.</ROM_MiGoCodex.description>
+  <ROM_ShoggothCodex.label>shoggoth</ROM_ShoggothCodex.label>
+  <ROM_ShoggothCodex.description>Bestias de trabajo protoplásmicas informes que aplastan todo lo que se interpone.</ROM_ShoggothCodex.description>
+  <ROM_DarkYoungCodex.label>joven oscuro</ROM_DarkYoungCodex.label>
+  <ROM_DarkYoungCodex.description>Engendros de Shub-Niggurath: arboledas andantes de tentáculos, pezuñas y fauces babeantes.</ROM_DarkYoungCodex.description>
+  <ROM_StarVampireCodex.label>vampiro estelar</ROM_StarVampireCodex.label>
+  <ROM_StarVampireCodex.description>Un depredador invisible del cielo. Solo se muestra cuando se ha alimentado.</ROM_StarVampireCodex.description>
+  <ROM_ChthonianCodex.label>chthonian</ROM_ChthonianCodex.label>
+  <ROM_ChthonianCodex.description>Excavadores colosales que emergen desde abajo para arrastrar sacrificios al foso.</ROM_ChthonianCodex.description>
+  <ROM_CthulhidCodex.label>engendro estelar de Cthulhu</ROM_CthulhidCodex.label>
+  <ROM_CthulhidCodex.description>El primogénito del propio Cthulhu. Donde pisa, sigue la locura.</ROM_CthulhidCodex.description>
+</LanguageData>

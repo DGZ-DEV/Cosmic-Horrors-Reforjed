@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ROM_RaidCosmicHorrors.label>Asalto de horror</ROM_RaidCosmicHorrors.label>
+  <ROM_StarVampireAttack.label>Ataque de vampiro estelar</ROM_StarVampireAttack.label>
+  <ROM_StarVampireAttack.letterLabel>Un escalofrío</ROM_StarVampireAttack.letterLabel>
+  <ROM_StarVampireAttack.letterText>Una calma inquietante ha caído sobre la tierra. Algo se acerca.</ROM_StarVampireAttack.letterText>
+  <ROM_DarkYoung.label>Joven oscuro</ROM_DarkYoung.label>
+  <ROM_ChthonianPit.label>Sumidero extraño (chthonian)</ROM_ChthonianPit.label>
+  <ROM_ChthonianPit.letterLabel>Sumidero extraño</ROM_ChthonianPit.letterLabel>
+  <ROM_ChthonianPit.letterText>Un sumidero enorme se ha abierto cerca de tu colonia.\n\nUna bestia colosal se retuerce debajo, royendo las mentes de tu colonia con dedos invisibles.\n\nExige un sacrificio. Aliméntalo o destrúyelo rápido.</ROM_ChthonianPit.letterText>
+  <ROM_ShoggothWilds.label>Shoggoths en las scarlands</ROM_ShoggothWilds.label>
+  <ROM_CthulhuNight.label>Sueña bajo la lluvia</ROM_CthulhuNight.label>
+  <ROM_StarVampirePods.label>La súplica que rechazaste</ROM_StarVampirePods.label>
+</LanguageData>
