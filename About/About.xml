@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Call of Cthulhu - Cosmic Horrors Reforjed</name>
+  <packageId>dgz.cosmichorrors</packageId>
+  <author>Jecrell</author>
+  <url>https://discord.gg/AaVFA7V</url>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>dgz.rework</packageId>
+      <displayName>Rework Reforjed</displayName>
+      <downloadUrl>https://github.com/dgz/rework</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>dgz.rework</li>
+  </loadAfter>
+  <description>1.4.0.1 (11-12-2022)
+
+*Add Lovecraftian monsters to your RimWorld experience!* There is a lingering fear that strokes the hairs on the back of the necks of your colonists. Something terrible is coming, and there is little time to prepare. Cosmic horrors are already upon us.
+	
+[h1]Features:[/h1]
+This is an attempt to create the minor races of H.P. Lovecraft's weird fiction mythos in the RimWorld engine. Some behave the same as hostile factions that raid colonies such as mechanoids or insectoids. Others can be deadlier, however.
+
+Adds the following cosmic horrors to your game:
+[list]
+[*]Star-Spawn of Cthulhu
+[*]Shoggoths
+[*]Mi-Go
+[*]Deep Ones
+[*]Star Vampire
+[*]Dark Young
+[*]Chthonian
+[/list]
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+NOTICE
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[b]You will need to start a new game[/b] [b]OR[/b] for previously saved games without monsters, you can try using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=751841890]Orion's Faction Discovery Mod[/url]
+*phew* Now that that's out of the way. Onto the notes section!
+
+
+[h1]Notes:[/h1]
+[list]
+[*]Each monster has its own unique anatomical skeletons, organs, and body parts. Some special powers were given to psionic beasts.
+[*]Each monster has special sound effects.
+[*]More creatures will be added in a second update in the near future. A third update will flesh out these cosmic horrors with true special abilities true to their literary counterparts.
+[*]Since I am one person, I can't attest to how balanced the monsters are, and I am definitely looking for feedback from player experiences. Let me know how they are in your game.
+[/list]
+
+[h1]Third Update[/h1]
+[list]
+[*]Dark Young and Dark Young Herd incidents added to the game.
+[*]Greater Deep Ones added to the game.
+[*]Star Vampires rebalanced to be more numerous at higher difficulties.
+[*]All cosmic horrors have age ranges from Spawn to Eldritch.
+[*]Sanity loss effects now apply when observing Cosmic Horrors.
+[*]Mood loss effects now apply when observing Cosmic Horrors.
+[*]Sanity Loss effects further rebalanced
+[/list]
+
+[h1]Call of Cthulhu Mods[/h1]
+[list]
+[*]Introducing the H.P. Lovecraft Storyteller ([url=http://steamcommunity.com/sharedfiles/filedetails/?id=763418547]Standard[/url] / [url=http://steamcommunity.com/sharedfiles/filedetails/?id=765751403]Double Population[/url])
+[*][url=http://steamcommunity.com/sharedfiles/filedetails/?id=764375772[/url]Call of Cthulhu - Neutral Factions[/url] add secretive coastal fishing villages, The Agency, themed guns, hats, outfits, and more! Don't want the factions but just the items? We have the [url=http://steamcommunity.com/sharedfiles/filedetails/?id=770220326]Items Only Edition[/url], too.
+[*][url=http://steamcommunity.com/sharedfiles/filedetails/?id=777197241]Industrial Age Object Pack![/url] Now you can add some early 20th century style to your colonies.
+[*]Want to play as cultists? Then the [url=http://steamcommunity.com/sharedfiles/filedetails/?id=815039373]Call of Cthulhu Cults Gameplay Expansion Pack[/url] is for you.
+[*]Get some [url=http://steamcommunity.com/sharedfiles/filedetails/?id=824831260]straitjackets[/url] to keep your colonists from going insane.
+[*]Want more? Check out the [url=https://ludeon.com/forums/index.php?topic=26078.0]Call of Cthulhu WIP thread[/url] on the official RimWorld forums at Ludeon.
+[/list]
+[h1]Recommended Mods[/h1]
+[list]
+[*]Colonists feeling nervous? There's [url=http://steamcommunity.com/sharedfiles/filedetails/?id=764301651]Jecrell's Tobacco and Cigarettes[/url]
+[/list]
+
+[h1]Credited Sources[/h1]
+[list]
+[*]Star Spawn of Cthulhu - [url=https://www.scribblenauts.com/scribblenauts/unmasked]ScribbleNauts[/url]
+[*]Shoggoth - Side Sprite - [url=http://www.puppetnightmares.com/species-status/70/]PuppetNightmares.com[/url]
+[*]MiGo - Side Sprite - [url=https://monsterbrains.blogspot.kr/2011/01/tatsuya-nemoto-nottsuo-hp-lovecraft.html]Tatsuya Mottsuo[/url]
+[*]Deep Ones (My artwork)
+[*]Star Vampires (My artwork)
+[*]Sound Effects - [url=http://store.steampowered.com/app/22340/]Call of Cthulhu - Dark Corners of the Earth (PC)[/url] 
+[*]Sound Effects - [url=http://store.steampowered.com/app/17470/]Dead Space (PC)[/url]
+[/list]
+
+Have fun!
+
+Thank you to my Patrons for supporting me in my efforts. Without you, none of this would be possible.
+
+These are the most excellent rim dwellers who support me: 
+Darcilyn Lynds (darci.andel), Luke Salinas, RainerWingel , Noisy Koi, Lea Stannard, David Silberstein, Matt Harris, Kiya Nicoll, Paul Fenwick, Genaeve , Populous25 , David Turner, TinyATuin, Michael Cailler, Jimes Tooper, Sharp Spook, Don Homer, roxxploxx , Alex Mederer, Dan Jones, Michael Whitehead, iknowdude00, Kaz, Alexander , Ken Birdwell, Darcilyn Lynds (darci.andel), Luke Salinas, RainerWingel , Noisy Koi, Lea Stannard, David Silberstein, Matt Harris, Kiya Nicoll, Paul Fenwick, Genaeve , Populous25 , David Turner, TinyATuin, Michael Cailler, Jimes Tooper, Sharp Spook, Don Homer, roxxploxx , Alex Mederer, Dan Jones, Michael Whitehead, iknowdude00, Kaz, Alexander , Ken Birdwell
+
+========================
+Changelog
+========================
+1.4.0.1 (11-12-2022)
+========================
+Fixed 1.3 texture pathing; Fixed smelting products error message; Star Vampires no longer flee
+
+1.4.0.0 (11-11-2022)
+========================
+Updated for RimWorld 1.4; New sprite graphics by Elseud; Many bug fixes
+
+1.3.0.2 (08-01-2021)
+========================
+Fixes a bug where the Star Vampire would not spawn appropriately after the delay.
+
+1.3.0.1 (07-25-2021)
+========================
+Readded Combat Extended support from mlie. Added short warning message for first time experiencing sanity loss.
+
+1.3.0.0 (07-24-2021)
+========================
+Added RimWorld 1.3 support
+
+# Changelog for CallofCthulhuCosmicHorrors
+
+1.0.8.0 - Updated russian translation, thanks Animal Mind 
+
+
+1.0.7.0 - Some missed CE-tweaks
+
+
+1.0.6.0 - Tweaking and rebalancing CE-patch to be more inline with CE, by Red_Bunny
+
+
+1.0.5.0 - Added support for LWM Deep Storage for the strange meat, thanks Röstli
+
+
+1.0.4.0 - Additional CE support by Battlefleet Covfefe
+
+
+1.0.2.0 - Fixed some errors in the CE-patch
+
+
+1.0.1.0 - Fixed the Shoggoth texture
+
+
+1.0.0.0 - First publish
+
+</description>
+</ModMetaData>

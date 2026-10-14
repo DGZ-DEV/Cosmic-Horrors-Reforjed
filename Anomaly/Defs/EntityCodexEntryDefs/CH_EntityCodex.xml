@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <EntityCodexEntryDef>
+    <defName>ROM_DeepOneCodex</defName>
+    <label>deep one</label>
+    <description>Amphibious servants of the deep that raid coastal settlements for captives.</description>
+    <category>Basic</category>
+    <uiIconPath>Ui/CodexEntries/ROM_DeepOne</uiIconPath>
+    <linkedThings>
+      <li>ROM_DeepOne</li>
+      <li>ROM_DeepOneGreat</li>
+    </linkedThings>
+    <orderInCategory>100</orderInCategory>
+  </EntityCodexEntryDef>
+  <EntityCodexEntryDef>
+    <defName>ROM_MiGoCodex</defName>
+    <label>mi-go</label>
+    <description>Winged fungoid scholars from the void, armed with strange casting weapons.</description>
+    <category>Basic</category>
+    <uiIconPath>Ui/CodexEntries/ROM_MiGo</uiIconPath>
+    <linkedThings>
+      <li>ROM_MiGo</li>
+    </linkedThings>
+    <orderInCategory>200</orderInCategory>
+  </EntityCodexEntryDef>
+  <EntityCodexEntryDef>
+    <defName>ROM_ShoggothCodex</defName>
+    <label>shoggoth</label>
+    <description>Shapeless protoplasmic labour-beasts that crush whatever stands in their way.</description>
+    <category>Advanced</category>
+    <uiIconPath>Ui/CodexEntries/ROM_Shoggoth</uiIconPath>
+    <linkedThings>
+      <li>ROM_Shoggoth</li>
+      <li>ROM_ShoggothTiny</li>
+      <li>ROM_ShoggothColossal</li>
+    </linkedThings>
+    <orderInCategory>300</orderInCategory>
+  </EntityCodexEntryDef>
+  <EntityCodexEntryDef>
+    <defName>ROM_DarkYoungCodex</defName>
+    <label>dark young</label>
+    <description>Spawn of Shub-Niggurath: walking groves of tentacles, hooves and drooling mouths.</description>
+    <category>Advanced</category>
+    <uiIconPath>Ui/CodexEntries/ROM_DarkYoung</uiIconPath>
+    <linkedThings>
+      <li>ROM_DarkYoung</li>
+    </linkedThings>
+    <orderInCategory>400</orderInCategory>
+  </EntityCodexEntryDef>
+  <EntityCodexEntryDef>
+    <defName>ROM_StarVampireCodex</defName>
+    <label>star vampire</label>
+    <description>An invisible sky-predator. It only shows itself once it has fed.</description>
+    <category>Advanced</category>
+    <uiIconPath>Ui/CodexEntries/ROM_StarVampire</uiIconPath>
+    <linkedThings>
+      <li>ROM_StarVampire</li>
+    </linkedThings>
+    <orderInCategory>500</orderInCategory>
+  </EntityCodexEntryDef>
+  <EntityCodexEntryDef>
+    <defName>ROM_ChthonianCodex</defName>
+    <label>chthonian</label>
+    <description>Colossal burrowers that boil up from below to drag sacrifices into the pit.</description>
+    <category>Advanced</category>
+    <uiIconPath>Ui/CodexEntries/ROM_Chthonian</uiIconPath>
+    <linkedThings>
+      <li>ROM_Chthonian</li>
+      <li>ROM_ChthonianLarva</li>
+    </linkedThings>
+    <orderInCategory>600</orderInCategory>
+  </EntityCodexEntryDef>
+  <EntityCodexEntryDef>
+    <defName>ROM_CthulhidCodex</defName>
+    <label>star-spawn of Cthulhu</label>
+    <description>Eldest spawn of Cthulhu himself. Where it walks, madness follows.</description>
+    <category>Ultimate</category>
+    <uiIconPath>Ui/CodexEntries/ROM_Cthulhid</uiIconPath>
+    <linkedThings>
+      <li>ROM_Cthulhid</li>
+    </linkedThings>
+    <orderInCategory>700</orderInCategory>
+  </EntityCodexEntryDef>
+</Defs>
