@@ -201,10 +201,17 @@ namespace CosmicHorror
                 Reveal();
             }
 
+            // Salvaje: ataca colonos a la vista sin mostrar icono ni carta de
+            // manhunter. Solo salvajes; los de faccion ya asaltan con su lord.
+            if (Faction == null && !Downed && !Dead && Spawned &&
+                Find.TickManager.TicksGame % 120 == 0)
+            {
+                TryAttackColonistsInSight();
+            }
+
             // Domesticado: fuera del lord hostil y sin furia, o seguiria atacando.
             if (Faction == Faction.OfPlayer && Find.TickManager.TicksGame % 120 == 0)
-            {
-                Lord currentLord = LordUtility.GetLord(p: this);
+            {                Lord currentLord = LordUtility.GetLord(p: this);
                 if (currentLord != null)
                 {
                     currentLord.Notify_PawnLost(pawn: this, cond: PawnLostCondition.ChangedFaction,
@@ -260,9 +267,42 @@ namespace CosmicHorror
             }
         }
 
-        public void DownedCheck()
+        // Salvaje que ve un colono a menos de 25 celdas lo ataca en melee, sin
+        // estado mental ni carta: agresion invisible.
+        private void TryAttackColonistsInSight()
         {
-            if (Downed)
+            if (jobs == null || Map == null)
+            {
+                return;
+            }
+            Job cur = jobs.curJob;
+            if (cur != null && (cur.def == JobDefOf.AttackMelee || cur.def == JobDefOf.AttackStatic))
+            {
+                return;
+            }
+            Pawn target = null;
+            float best = 25f * 25f;
+            foreach (Pawn colonist in Map.mapPawns.FreeColonistsSpawned)
+            {
+                if (colonist.Dead || colonist.Downed)
+                {
+                    continue;
+                }
+                float dist = Position.DistanceToSquared(colonist.Position);
+                if (dist < best && GenSight.LineOfSight(start: Position, end: colonist.Position, map: Map))
+                {
+                    best = dist;
+                    target = colonist;
+                }
+            }
+            if (target != null)
+            {
+                jobs.TryTakeOrderedJob(job: new Job(def: JobDefOf.AttackMelee, targetA: target));
+            }
+        }
+
+        public void DownedCheck()
+        {            if (Downed)
             {
                 // Los derribados domesticables no se rematan: con la opcion de
                 // tameo y descubiertos, tambien perdonan los de faccion.
