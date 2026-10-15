@@ -406,7 +406,7 @@ namespace CosmicHorror
 
                 if (Map == Find.CurrentMap)
                 {
-                    SoundDef.Named(defName: "Pawn_ROM_Chthonian_Scream").PlayOneShotOnCamera();
+                    SoundDef.Named(defName: "Pawn_ROM_Chthonian_Call").PlayOneShotOnCamera();
                 }
 
                 return;

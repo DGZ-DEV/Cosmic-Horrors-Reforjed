@@ -96,4 +96,14 @@
     <category>ThreatBig</category>
     <baseChance>1.2</baseChance>
   </IncidentDef>
+  <IncidentDef>
+    <defName>ROM_ScoutCosmicHorror</defName>
+    <label>cosmic horror scout</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>CosmicHorror.IncidentWorker_ScoutCosmicHorror</workerClass>
+    <category>ThreatSmall</category>
+    <baseChance>1.0</baseChance>
+  </IncidentDef>
 </Defs>
